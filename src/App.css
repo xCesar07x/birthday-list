@@ -1,0 +1,170 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.form{
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.App{
+ width: 100%;
+ height: 100%;
+ 
+ 
+}
+
+.first-last{
+  width: 79.5px;
+  color: #1a1a1a;
+  background: whitesmoke;
+  
+}
+.svg-user{
+  fill: #1a1a1a;
+}
+
+
+.svg-lock{
+  fill: #1a1a1a;
+}
+
+.svg-email{
+  fill: #1a1a1a;
+  
+}
+.svg-cake{
+  fill: #1a1a1a;
+}
+.cars-list{
+ background: rebeccapurple;
+ width: 100vh;
+    padding: 1rem;
+   
+ 
+}
+
+.cars-list ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cars-list ul li{
+  list-style: none;
+  
+
+}
+
+.conteiner-list{
+  background: whitesmoke;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.cars-list ul::-webkit-scrollbar {
+  width: 7px;
+  background: #1a1a1a;
+}
+
+.scroll::-webkit-scrollbar{
+  width: 7px;
+  background: #1a1a1a;
+  
+}
+
+.color-text{
+  color: #1a1a1a;
+  display: flex;
+    margin: 0;
+    padding: 5px;
+}
+
+.color-email{
+  color: #888;
+}
+
+.label-item{
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+  
+}
+.input-container{
+  display: flex;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+.input-email{
+ width: 172px;
+ color: #1a1a1a;
+ background: whitesmoke;
+}
+
+.input-password{
+ width: 172px;
+ color: #1a1a1a;
+ background: whitesmoke;
+}
+
+.input-birthday{
+  width: 175px;
+  color: #888;
+  background: whitesmoke;
+}
+
+
+/* .conteiner-upload{
+  display: flex;
+  border: 3px dashed blue;
+} */
+.upload-button{
+  background-color: mediumseagreen;
+  width: 210px;
+}
+
+#date-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-items: end; */
+  gap: 5px;
+}
+
+.delete-update{
+  display: flex;
+  align-items: center;
+  
+}
+.conteiner-du{
+  display: flex;
+  
+  
+}
+
+.scroll::-webkit-scrollbar{
+  width: 7px;
+  color: #1a1a1a;
+  background-color: #1a1a1a;
+  background: #1a1a1a;
+}
+
+@media (min-width: 768px) {
+  .App{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+}
+
